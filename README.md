@@ -5,6 +5,14 @@ Program reads a collection of test documents.
 Analyzing probability of vocabularies in the documnet and classfy them into proper year when they are written or topic is more related to other documents written in the same year.
 
 # Training
+## Create vocabulary
+Create list of vocabulary files for words that show up more times than given cutoffs
+```
+>>> create_vocabulary('./EasyFiles/', 1)
+=> [',', '.', '19', '2020', 'a', 'cat', 'chases', 'dog', 'february', 'hello', 'is', 'it', 'world']
+>>> create_vocabulary('./EasyFile/', 2)
+=> [',', 'a']
+```
 ## Create bag of words
 Create bag of word for each training documents and counts the number of words appear in the document.
 ```
