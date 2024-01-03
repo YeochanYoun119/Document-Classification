@@ -1,12 +1,3 @@
-'''
-Title:           Document Classification
-Files:           classify.py
-Course:          CS540, Spring 2020
-
-Author:          Yeochan Youn
-Email:           yyoun5@wisc.edu
-'''
-
 import glob
 import math
 import os
